@@ -29,11 +29,10 @@ function verificarChute() {
         document.getElementById("imgTrofeu").style.display = "inline-block";
         document.querySelector(".container__texto h1").style.display = "none";
     
-        let audioAhMizeravi = new Audio("./audio/ah-mizeravi.wav");
+        let audioAhMizeravi = new Audio('./audio/ah-mizeravi.wav');
+        audioAhMizeravi.preload = 'auto';
         audioAhMizeravi.play();
-        audioAhMizeravi.onended = function () {
-    
-        };
+
     } else {
         if (tentativas >= 5) {
             exibirMensagem('Você excedeu o número máximo de tentativas. O jogo acabou!');
