@@ -37,4 +37,4 @@ Projeto criado para aprendizado de JavaScript ao qual foram abordados os seguint
     
   - ![Oracle](https://img.shields.io/badge/-Oracle-red?logo=oracle&logoColor=F80000&style=fot-the-badge)
 ## Desenvolvedor
-🙋🏼‍♂️ Márcio Adriano da Silva |</sub>](https://github.com/MADS1974) 
+🙋🏼‍♂️ [Márcio Adriano da Silva](https://www.linkedin.com/in/mads1974/)
