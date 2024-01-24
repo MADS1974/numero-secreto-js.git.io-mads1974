@@ -19,6 +19,9 @@ function verificarChute() {
     chute = parseInt(document.getElementById("inputChute").value);
     document.getElementById("mensagens").innerHTML = "";
 
+    document.getElementById("inputChute").value = "";
+    document.getElementById("inputChute").focus();
+
     if (chute == numeroSecreto) {
         exibirMensagem(`Maravilha! Você acertou com apenas ${tentativas} ${tentativas > 1 ? 'tentativas' : 'tentativa'}`);
         atualizarTextoBotao("Reiniciar Jogo");
@@ -54,6 +57,7 @@ function verificarChute() {
         }
     }
 }
+
 
 function reiniciarJogo() {
     tentativas = 1;
