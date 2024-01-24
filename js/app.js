@@ -29,7 +29,7 @@ function verificarChute() {
         document.getElementById("imgTrofeu").style.display = "inline-block";
         document.querySelector(".container__texto h1").style.display = "none";
     
-        let audioAhMizeravi = new Audio("/numero-secreto-js/audio/ah-mizeravi.wav");
+        let audioAhMizeravi = new Audio("./audio/ah-mizeravi.wav");
         audioAhMizeravi.play();
         audioAhMizeravi.onended = function () {
     
