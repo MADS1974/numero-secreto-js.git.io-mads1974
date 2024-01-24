@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>JS Game</title>
+</head>
+
+<body style="background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);">
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informacoes">
+                <button id="btnIniciarJogo" onclick="iniciarJogo()">Iniciar Jogo</button>
+                <div id="divChute" style="display: none;">
+                    <input type="number" id="inputChute" placeholder="Digite seu chute" />
+                    <button id="btnVerificarChute" onclick="verificarChute()">Digite seu chute</button>
+                </div>
+                <div id="mensagens"></div>
+                <div class="container__texto">
+                    <h1>Descubra o <span class="container__texto-azul">número secreto!</span></h1>
+                </div>
+                
+                <div class="container__informacoes">
+                    <img id="imgTrofeu" src="/numero-secreto-js/img/trophy.png" alt="ícone de um troféu" />
+                </div>
+            </div>
+            <img src="/numero-secreto-js/img/robot.gif" alt="robô mergulhador" class="container__imagem-robo" />
+
+        </div>
+    </div>
+    <script src="/numero-secreto-js/js/app.js" defer></script>
+    <audio id="audioErrou" src="/numero-secreto-js/audio/errou.wav"></audio>
+    <audio id="audioGameOver" src="/numero-secreto-js/audio/game-over.wav"></audio>
+    <audio id="audioAhMizeravi" src="/numero-secreto-js/audio/ah-mizeravi.wav"></audio>
+
+</body>
+
+</html>
