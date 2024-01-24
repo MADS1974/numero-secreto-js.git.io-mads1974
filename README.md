@@ -1,6 +1,6 @@
 # Projeto Número Secreto.
 
-Neste jogo desenvolvido em JS, um número secreto aleatório entre 1 e 20 é gerado e o seu desafio é descobrir qual é este número. A cada chute o jogo te fornece dicas, revelando se o número secreto é maior ou menor que o chute, a parte divertida é o feedback para cada erro ou acerto em forma de áudio com 2 memes conhecidissímos da web, mas é o seguinte, se errar mais de 5x é GAME OVER. Ao final, ele te mostra quantos chutes foram necessários até acertar, bem como te dá aquele feedback parabenizando de forma única. "" ACERTOU..AHHHH....." 😂 	
+Neste jogo desenvolvido em JS, um número secreto aleatório entre 1 e 20 é gerado e o seu desafio é descobrir qual é este número. A cada chute o jogo te fornece dicas, revelando se o número secreto é maior ou menor que o chute, a parte divertida é o feedback para cada erro ou acerto em forma de áudio com 2 memes conhecidissímos da web, mas é o seguinte, se errar mais de 5x é GAME OVER. Ao final, ele te mostra quantos chutes foram necessários até acertar, bem como te dá aquele feedback parabenizando de forma única. " ACERTOU..AHHHH....." 😂 	
 
 Neste Projeto foram abordados os seguintes tópicos:
 
