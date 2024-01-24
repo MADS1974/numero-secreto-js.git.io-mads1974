@@ -10,7 +10,7 @@ function iniciarJogo() {
     document.getElementById("divChute").style.display = "block";
     document.getElementById("btnVerificarChute").onclick = verificarChute;
 
-    document.querySelector(".container").style.backgroundImage = "url('/numero-secreto-js/img/code.png')";
+    document.querySelector(".container").style.backgroundImage = "url('./numero-secreto-js/img/code.png')";
 
     document.getElementById("imgTrofeu").style.display = "none";
 }
@@ -24,7 +24,7 @@ function verificarChute() {
         atualizarTextoBotao("Reiniciar Jogo");
         document.getElementById("btnVerificarChute").onclick = reiniciarJogo;
     
-        document.querySelector(".container").style.backgroundImage = "url('/numero-secreto-js/img/Ruido.png')";
+        document.querySelector(".container").style.backgroundImage = "url('./numero-secreto-js/img/Ruido.png')";
     
         document.getElementById("imgTrofeu").style.display = "inline-block";
         document.querySelector(".container__texto h1").style.display = "none";
@@ -63,7 +63,7 @@ function reiniciarJogo() {
     document.getElementById("btnVerificarChute").onclick = verificarChute;
     iniciarJogo();
 
-    document.querySelector(".container").style.backgroundImage = "url('/numero-secreto-js/img/code.png')";
+    document.querySelector(".container").style.backgroundImage = "url('./numero-secreto-js/img/code.png')";
 
     document.getElementById("imgTrofeu").style.display = "none";
 }
